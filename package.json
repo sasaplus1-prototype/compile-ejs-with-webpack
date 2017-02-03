@@ -1,0 +1,19 @@
+{
+  "config": {
+    "input": "./src",
+    "output": "./dest"
+  },
+  "devDependencies": {
+    "ejs": "^2.5.5",
+    "ejs-html-loader": "^2.0.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "glob": "^7.1.1",
+    "lodash.frompairs": "^4.0.1",
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.14.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "webpack"
+  }
+}
